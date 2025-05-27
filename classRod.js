@@ -34,4 +34,4 @@ console.log("After insertion at index 3 (value 999):", array);
 removeElement(array, 5);
 console.log("After removal at index 5:", array);
 
-let array2 = new Array(10).fill(0).map(() => Math.floor(Math.random() * 100) + 1);
+let array2 = new Array(5).fill(0).map(() => Math.floor(Math.random() * 100) + 1);
